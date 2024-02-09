@@ -11,6 +11,6 @@ if __name__ == '__main__':
     n = int(input().strip())
     if n in (list(range(2,21))):
         for i in list(range(1,11)):
-            print(f"{n} * {i} = {n * i}")
+            print(f"{n} x {i} = {n * i}")
     else:
         sys.exit()
